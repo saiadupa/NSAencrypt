@@ -41,10 +41,10 @@ decrypted_video_path = decrypt_video(encrypted_video_path, 'your_key')
 ### Text Encryption and Decryption
 
 ```python
-from ANSencrypt.text import text, decrypt_text
+from ANSencrypt.text import encrypt_text, decrypt_text
 
 # Encrypt text
-encrypted_text = text("Your secret message")
+encrypted_text = encrypt_text("Your secret message")
 
 # Decrypt the encrypted text
 decrypted_text = decrypt_text(encrypted_text)
